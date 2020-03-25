@@ -3,9 +3,12 @@
   font-weight:400;
   font-style:normal;
   font-size:13px;
+  letter-spacing:normal;
   color:#333333;
+  vertical-align:none;
   text-align:center;
   line-height:normal;
+  text-transform:none;
 }
 .heading_1 {
   font-family:'Arial Normal', 'Arial';
@@ -51,6 +54,11 @@
 .paragraph {
   text-align:left;
 }
+.form_hint {
+  color:#999999;
+}
+.form_disabled {
+}
 .droplist {
   color:#000000;
   text-align:left;
@@ -90,6 +98,9 @@
 }
 .placeholder {
 }
+.link_button {
+  color:#169BD5;
+}
 .vertical_line {
 }
 .checkbox {
@@ -113,7 +124,7 @@
 .table_cell {
 }
 .iconfont {
-  font-family:'iconfont Regular', 'iconfont';
+  font-family:'iconfont Normal', 'iconfont';
   font-weight:400;
   font-style:normal;
   font-size:18px;
@@ -126,3 +137,4 @@
 }
 ._图片 {
 }
+textarea, select, input, button { outline: none; }
