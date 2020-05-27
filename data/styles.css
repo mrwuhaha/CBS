@@ -98,6 +98,9 @@
 }
 .placeholder {
 }
+.primary_button {
+  color:#FFFFFF;
+}
 .link_button {
   color:#169BD5;
 }
@@ -124,7 +127,7 @@
 .table_cell {
 }
 .iconfont {
-  font-family:'iconfont Normal', 'iconfont';
+  font-family:'iconfont Regular', 'iconfont';
   font-weight:400;
   font-style:normal;
   font-size:18px;
@@ -136,5 +139,7 @@
   text-align:left;
 }
 ._图片 {
+}
+._形状 {
 }
 textarea, select, input, button { outline: none; }
